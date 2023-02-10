@@ -1,0 +1,191 @@
+/* General CSS */
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body{
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Source Sans Pro', sans-serif;
+	background: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+/* Header CSS */
+
+.header{
+	width: 100%;
+	background: #f5f7fb;
+}
+
+.header .top-menu{
+	width: 100%;
+	padding: 15px 0px;
+	border-bottom: 1px solid #e6e9ed;
+}
+
+.header .info{
+	width: 100%;
+}
+
+.header .info a{
+	display: inline-block;
+	color: #506a85;
+	margin-right: 32px;
+	transition: 0.5s;
+}
+
+.header .info a:hover{
+	color: #00bc9c;
+}
+
+.header .info .fa{
+	font-size: 16px;
+	margin-right: 16px;
+}
+
+.header .social-icons{
+	width: 100%;
+	text-align: right;
+}
+
+.header .social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+
+.header .social-icons li a{
+	color: #506a85;
+	margin-left: 20px;
+	transition: 0.5s;
+}
+
+.header .social-icons li a:hover{
+	color: #00bc9c;
+}
+
+.header .main-menu{
+	width: 100%;
+	padding: 20px 0px;
+}
+
+.header .sticky-top{
+	background: #f5f7fb;
+}
+
+.header .main-menu .nav-link{
+	color: #506a85;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+.header .main-menu .nav-link:hover{
+	color: #00bc9c;
+}
+
+.header .main-menu .fa{
+	color: #506a85;
+	font-size: 20px;
+}
+
+.header .hero{
+	width: 100%;
+	height: 100vh;
+	background: url("../images/hero-slider1.png") center center no-repeat;
+	background-size: cover;
+}
+
+.header .hero h1{
+	color: #fff;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+.header .hero p{
+	color: #a3b1bf;
+	font-size: 18px;
+	margin-bottom: 35px;
+}
+
+.header .hero .get-started{
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	background: #00bc9c;
+	padding: 10px 30px;
+	border-radius: 0px;
+}
+
+/* Services CSS */
+
+.services{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.services .services-header h1{
+	color: #506a85;
+	font-size: 45px;
+	margin-bottom: 20px;
+}
+
+.services .services-header p{
+	color: #73879c;
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+
+.services h5{
+	color: #506a85;
+}
+
+.services p{
+	color: #73879c;
+	text-align: justify;
+}
+
+/* Latest Works CSS */
+
+.latest-works{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.latest-works .latestworks-header h1{
+	color: #506a85;
+	font-size: 45px;
+	margin-bottom: 20px;
+}
+
+.latest-works .latestworks-header p{
+	color: #73879c;
+	font-size: 20px;
+	margin-bottom: 50px;
+}
